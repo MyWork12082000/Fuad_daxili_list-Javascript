@@ -1,0 +1,279 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+
+
+
+.main{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+.main .menu{
+	display: inline-block;
+	width: calc(100% /4);
+	text-align: center;
+	background: black;
+	border-radius: 10px;
+	color: white;
+	margin-left: 120px;
+
+}
+
+
+
+
+.main .up{
+
+	display: flex;
+	margin-bottom: 7px;
+	margin-top: 20px;
+	width: calc(100% / 2 );
+
+
+}
+.main .up .img1{
+	width: 600px ;
+	margin-left: 34%  ;
+	length: 600px; 
+
+
+}
+
+.main  .div2  {
+	width: 20%;
+}
+
+.main  .div2 .bar1 {
+
+
+
+	width: 35px;
+	margin-top: 100%;
+	margin-left: 240%;
+
+
+}
+
+.main  .navbar{
+	width: 100%;
+	background: black;
+	position: sticky;
+	top: 0;
+	display: none;
+}
+
+.main  .navbar .ul{
+	width: 70%;
+	display: block;
+}
+
+.main  .navbar .ul .li1{
+	display: inline-block;
+	width: calc(100% / 3 );
+	float: left;
+	background: black;
+	list-style: none;
+	padding: 5px 0;
+	position: relative;
+}
+.main  .navbar .ul .li1 .a1{
+	display: inline-block;
+	width: 100%;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	font-size: 1.6rem;
+	font-weight: 400;
+	
+	background: #1f1e1e;
+	padding: 15px 0;
+	transition: 1s;
+}
+.main   .navbar .ul .li1 .a1:hover{
+	background: gray;
+	color: black;
+
+
+
+
+}
+
+
+
+.main   .navbar .ul .li1 ul{
+	position: absolute;
+	width: 100%;
+	display: none;
+
+
+
+
+}
+
+.main   .navbar .ul .li1 ul{
+	position: relative;
+
+
+
+}
+
+.main   .navbar .ul .li1:hover ul{
+
+	display: block;
+}
+
+.main   .navbar .ul .li1 ul li{
+	width: 100%;
+	display: inline-block;
+
+
+
+
+}
+.main   .navbar .ul .li1 ul li a{
+
+	width: 100%;
+	color: black;
+	background: blue ;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.main .navbar .sourch form {
+	width: 15%;
+	display: inline-block;
+	
+
+}
+.main .navbar .sourch form input{
+	width: 100%;
+	display: block;
+	padding: 20px;
+	margin-left: 8px;
+	border-radius: 30px;
+	color: white;
+	background: linear-gradient(to right, #000000, #0f0f0f, #212121, #403e3e);
+}
+
+.main .navbar .sourch form input::placeholder{
+	color: white;
+
+
+
+
+
+
+}
+
+.main .photo{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top:1rem
+
+}
+
+.main .photo .photos{
+	width: calc(100% / 3);
+	height: 20rem;
+
+
+}
+.main .photo .photos img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+
+}
+
+@media(max-width: 990px){
+	.main .navbar{
+		display: none;
+
+	}
+	.main .photo .photos{
+		width: calc(100%  - 1rem)
+	}
+	.main .navbar .sourch{
+		text-align: left;
+		width: 200%;
+
+
+
+
+	}
+	.main    .navbar .ul .li1{
+		width: 100%;
+		
+	}
+	.main    .navbar .ul .li1 .a1{
+		text-align: left;
+		padding-left: 10px;
+}
+
+	.main .up {
+	width: calc(100% / 2 );
+
+
+
+}
+	.main .menu{
+		width: 100%;
+		margin-left: 0px;
+
+
+
+
+}
+	.main .up .img1{
+
+		width: 500px ;
+	margin-left: 10%  ;
+	length: 500px; 
+
+
+
+}
+
+.main  .div2 .bar1 {
+
+
+
+	width: 35px;
+	margin-top: 230%;
+	margin-left: 200%;
+
+
+}
+
+.main .navbar .sourch {
+	width: 60%;
+}
+
+}
+.main .navbar .sourch form {
+	width: 60%;
+	
+}
